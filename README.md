@@ -61,7 +61,7 @@ At night (sun below the horizon), the code returns a zero vector to signal that 
 - `equation_of_time_min(n)` – equation of time in minutes.
 - `solar_zenith_from_utc(lat_deg, lon_deg, when_utc)` – zenith angle from UTC, latitude, and longitude.
 - `decompose_ghi_to_dni_dhi(ghi, theta_z_deg, n)` – Erbs-based decomposition of GHI into DNI and DHI.
-- `solar_angles_and_vectors(lat_deg, lon_deg, when_local)` – zenith, altitude, azimuth, and ENU direction vectors for the sun and incoming rays.
+- `solar_angles_and_vectors(lat_deg, lon_deg, when_local)` – zenith, altitude, azimuth, and ENU direction vectors for the sun.
 
 ---
 
